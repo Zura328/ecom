@@ -31,6 +31,13 @@ class Sample extends Controller
         return view('sample',compact('data'));
     }
 
+    public function welcome()
+    {
+        
+        return view('welcome');
+    }
+
+
     /**
      * Show the form for editing the resource.
      */

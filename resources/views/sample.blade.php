@@ -9,5 +9,6 @@
     patata
     {{$data}}
     <x-button/>
+    <a href="/welcome">asdhnjsad</a>
 </body>
 </html>
