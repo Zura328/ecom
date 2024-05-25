@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+use App\Http\Controllers\Sample;
+
+Route::get('/', [Sample::class, 'show']);
+
+Route::get('/sample', [Sample::class, 'show']);
